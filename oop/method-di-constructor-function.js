@@ -2,11 +2,11 @@
 // Method bisa didefinisikan sebagai fungsi di dalam constructor.
 
 function User(nama) {
-    this.nama = nama;
-    this.sapa = function() {
-        console.log("Halo, saya " + this.nama);
-    }
+  this.nama = nama;
+  this.sapa = function () {
+    console.log('Halo, saya ' + this.nama);
+  };
 }
 
-const user = new User("Rizal");
+const user = new User('Eko');
 user.sapa();
