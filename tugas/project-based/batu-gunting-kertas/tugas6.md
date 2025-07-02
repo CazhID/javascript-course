@@ -10,12 +10,19 @@ Buatlah permainan Gunting-Batu-Kertas melawan komputer.
 2.  Di bawahnya, ada area untuk menampilkan pilihan pemain, pilihan komputer, dan hasil pertandingan (Menang, Kalah, atau Seri).
 3.  Setiap kali pemain mengklik salah satu tombol, komputer akan secara acak memilih opsinya, dan hasilnya akan langsung ditampilkan.
 4.  (Opsional) Tambahkan papan skor untuk melacak skor pemain dan komputer.
+5.  Tambahkan riwayat pertandingan dalam bentuk daftar (`<ol>`) di halaman. Setiap kali pemain menyelesaikan satu pertandingan:
+
+- Buatlah elemen `<li>` baru dengan isi: pilihan pemain, pilihan komputer, dan hasilnya.
+- Tambahkan elemen tersebut ke dalam `<ol>` menggunakan `appendChild`.
+- Contoh tampilan riwayat:
+  `Anda: batu, Komputer: gunting, Hasil: MENANG`
 
 #### 🧠 Fokus Logika Utama
 
 - **Pembangkitan Acak (Randomization):** Menggunakan `Math.random()` untuk membuat pilihan komputer yang tidak dapat diprediksi.
 - **Logika Kondisional Kompleks:** Membuat serangkaian `if/else if/else` atau `switch` untuk menentukan pemenang berdasarkan semua kemungkinan kombinasi (misal: Batu mengalahkan Gunting, Kertas mengalahkan Batu, dst.).
 - **Manajemen Status:** Menyimpan dan memperbarui data (seperti pilihan saat ini dan skor) dalam variabel JavaScript.
+- **Manipulasi DOM:** Menggunakan `document.createElement()` dan `appendChild()` untuk menampilkan riwayat pertandingan ke dalam elemen `<ol>`.
 - **Pemisahan Fungsi:** Memecah logika menjadi fungsi-fungsi kecil yang bisa dikelola (misal: `fungsiPilihanKomputer()`, `fungsiTentukanPemenang()`, `fungsiUpdateTampilan()`).
 
 #### 🏗️ Kerangka HTML
@@ -24,12 +31,15 @@ Buatlah permainan Gunting-Batu-Kertas melawan komputer.
 <!DOCTYPE html>
 <html lang="id">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gunting Batu Kertas</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1>Gunting Batu Kertas</h1>
     <p>Pilih salah satu:</p>
+
     <div class="pilihan">
       <button onclick="main('gunting')">Gunting ✂️</button>
       <button onclick="main('batu')">Batu 🗿</button>
@@ -43,9 +53,28 @@ Buatlah permainan Gunting-Batu-Kertas melawan komputer.
       <h3 id="hasil-akhir">-</h3>
     </div>
 
+    <div id="riwayat-pertandingan">
+      <h2>Riwayat Pertandingan:</h2>
+      <ol id="riwayat-list"></ol>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
+```
+
+#### 🏗️ Template script.js
+
+```js
+function main(pilihanPemain) {}
+
+function getPilihanKomputer() {}
+
+function tentukanPemenang(pemain, komputer) {}
+
+function tampilkanHasil(pemain, komputer, hasil) {}
+
+function tambahRiwayat(pemain, komputer, hasil) {}
 ```
 
 #### 📝 Alur Logika JavaScript (`script.js`)
