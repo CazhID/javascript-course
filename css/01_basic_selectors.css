@@ -1,0 +1,24 @@
+
+/* Dasar-dasar Selector CSS */
+
+body {
+  font-family: sans-serif;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+/* Class selector */
+.intro {
+  color: blue;
+  font-size: 18px;
+}
+
+/* Tag selector */
+div {
+  border: 2px solid black;
+  padding: 10px;
+}

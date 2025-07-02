@@ -1,0 +1,38 @@
+/* CSS Position */
+
+.container {
+  height: 200vh;
+}
+
+.relative-box {
+  position: relative;
+  top: 20px;
+  left: 10px;
+  background-color: lightcoral;
+  padding: 10px;
+}
+
+.absolute-box {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: lightgreen;
+  padding: 10px;
+}
+
+.fixed-box {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: lightred;
+  padding: 10px;
+}

@@ -1,0 +1,13 @@
+
+/* Responsive Design dengan Media Queries */
+
+body {
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 12px;
+    background-color: #e0f7fa;
+  }
+}

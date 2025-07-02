@@ -1,0 +1,12 @@
+
+/* Variabel CSS (Custom Properties) */
+
+:root {
+  --main-bg: #282c34;
+  --main-color: #61dafb;
+}
+
+body {
+  background-color: var(--main-bg);
+  color: var(--main-color);
+}
