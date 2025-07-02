@@ -166,4 +166,4 @@ Selamat datang di proyek **JavaScript Course**! Ini adalah repositori yang menca
 
 1. Clone repository ini:
    ```bash
-   git clone https://github.com/username/javascript-course.git
+   git clone https://github.com/CazhID/javascript-course.git
