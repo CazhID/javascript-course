@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gunting Batu Kertas</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>Gunting Batu Kertas</h1>
+    <p>Pilih salah satu:</p>
+
+    <div class="pilihan">
+        <button onclick="main('gunting')">Gunting ✂️</button>
+        <button onclick="main('batu')">Batu 🗿</button>
+        <button onclick="main('kertas')">Kertas 📄</button>
+    </div>
+
+    <div id="hasil-pertandingan">
+        <h2>Hasil:</h2>
+        <p>Anda memilih: <strong id="pilihan-anda">-</strong></p>
+        <p>Komputer memilih: <strong id="pilihan-komputer">-</strong></p>
+        <h3 id="hasil-akhir">-</h3>
+    </div>
+
+    <div id="riwayat-pertandingan">
+        <h2>Riwayat Pertandingan:</h2>
+        <ol id="riwayat-list"></ol>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
