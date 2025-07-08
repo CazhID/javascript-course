@@ -77,3 +77,13 @@ movie-app/
 │   ├── favorites.js      -> logika favorit
 │   ├── app.js            -> utilitas umum
 ```
+
+### 📸 Desain Tampilan (UI Mockup)
+
+Berikut adalah mockup dari tampilan aplikasi yang akan dibuat:
+
+![Mockup Home Screen](https://cdn.dribbble.com/userupload/43526984/file/original-11bce2a81f4367df79f82944d6897463.png?resize=1024x898&vertical=center)
+
+![Mockup Detail Screen](https://cdn.dribbble.com/userupload/43526986/file/original-b2785fc51db30f84cd5e76d63de50768.png?resize=1024x1702&vertical=center)
+
+![Mockup Search Movie Screen](https://cdn.dribbble.com/userupload/39980950/file/original-101df9a898ce6bc91cbd048d437d9e86.png?resize=1905x1429&vertical=center)
