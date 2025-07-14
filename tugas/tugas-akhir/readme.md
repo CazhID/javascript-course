@@ -10,20 +10,6 @@
 4. ⭐ **Tambah ke Favorit (disimpan per pengguna di `localStorage`)**
 5. 🎬 **Halaman Detail Film**
 
----
-
-### 🧱 **Struktur Halaman Aplikasi**
-
-| Halaman          | Deskripsi                                                            |
-| ---------------- | -------------------------------------------------------------------- |
-| `register.html`  | Formulir pendaftaran pengguna baru (data disimpan ke `localStorage`) |
-| `login.html`     | Formulir login (validasi dari data `localStorage`)                   |
-| `home.html`      | Halaman utama/beranda (hanya bisa diakses jika sudah login)          |
-| `search.html`    | Halaman pencarian & filter film (menggunakan TMDB API)               |
-| `movie.html`     | Tampilan detail film yang dipilih                                    |
-| `favorites.html` | Daftar film favorit pengguna yang tersimpan                          |
-
----
 
 ### 🧠 **Alur Aplikasi**
 
