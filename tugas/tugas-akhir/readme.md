@@ -39,31 +39,6 @@
 
 ---
 
-### 🗂️ **Struktur Folder & File**
-
-```
-movie-app/
-│
-├── index.html         -> redirect otomatis ke login atau home berdasarkan status login
-├── login.html
-├── register.html
-├── home.html
-├── search.html
-├── movie.html
-├── favorites.html
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   ├── config.js         -> menyimpan API key dan URL TMDB
-│   ├── auth.js           -> logika login & registrasi
-│   ├── storage.js        -> helper untuk akses `localStorage`
-│   ├── movies.js         -> logika pencarian & detail film via TMDB
-│   ├── favorites.js      -> logika favorit
-│   ├── app.js            -> utilitas umum
-```
-
 ### 📸 Desain Tampilan (UI Mockup)
 
 Berikut adalah mockup dari tampilan aplikasi yang akan dibuat:
